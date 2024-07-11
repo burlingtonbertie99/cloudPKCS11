@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/import_pub_key.dir/import_pub_key.c.o CMakeFiles/import_pub_key.dir/io.c.o -o import_pub_key  -lcloudhsmpkcs11 -lssl -lcrypto 

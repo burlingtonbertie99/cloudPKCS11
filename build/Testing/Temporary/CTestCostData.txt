@@ -1,0 +1,29 @@
+digest 2 0.306204
+aes_generate 2 0.321895
+rsa_generate 2 0.3484
+ec_generate 2 0.422754
+sign 2 0.403958
+multi_part_sign 2 0.406356
+aes_cbc 2 0.354094
+aes_ecb 2 0.325033
+aes_gcm 2 0.319339
+aes_ctr 2 0.320177
+des_ecb 2 0.331035
+aes_gcm_wrapping 1 0.808263
+aes_no_padding_wrapping 1 0.708148
+aes_zero_padding_wrapping 1 0.760417
+aes_wrapping 1 0.757091
+rsa_wrapping 1 1.05922
+wrap_with_template 1 0.720438
+unwrap_with_template 0 0
+mechanism_info 2 0.295624
+find_objects 2 0.369758
+ecdh 0 0
+hmac_kdf 2 0.373294
+aes_cmac_kdf 2 0.360084
+generate_random 2 0.309313
+login_state 2 0.292199
+session_keys 2 0.295233
+---
+unwrap_with_template
+ecdh

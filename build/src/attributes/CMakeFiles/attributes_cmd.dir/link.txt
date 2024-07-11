@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/attributes_cmd.dir/attributes_cmd.c.o -o attributes_cmd  ../common/libcloudhsmpkcs11.a libattributes.a -ldl 

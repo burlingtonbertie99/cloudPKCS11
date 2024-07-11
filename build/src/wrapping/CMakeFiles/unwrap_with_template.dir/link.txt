@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/unwrap_with_template.dir/unwrap_with_template.c.o -o unwrap_with_template  ../common/libcloudhsmpkcs11.a -ldl 

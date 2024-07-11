@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/ec_generate.dir/ec_generate.c.o -o ec_generate  ../common/libcloudhsmpkcs11.a -ldl 

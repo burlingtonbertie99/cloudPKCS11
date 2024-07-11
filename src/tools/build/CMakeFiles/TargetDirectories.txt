@@ -1,0 +1,4 @@
+/home/ec2-user/hsm_api/aws-cloudhsm-pkcs11-examples/src/tools/build/CMakeFiles/import_pub_key.dir
+/home/ec2-user/hsm_api/aws-cloudhsm-pkcs11-examples/src/tools/build/CMakeFiles/wrap_with_imported_rsa_key.dir
+/home/ec2-user/hsm_api/aws-cloudhsm-pkcs11-examples/src/tools/build/CMakeFiles/edit_cache.dir
+/home/ec2-user/hsm_api/aws-cloudhsm-pkcs11-examples/src/tools/build/CMakeFiles/rebuild_cache.dir

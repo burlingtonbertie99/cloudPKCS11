@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/encrypt/CMakeLists.txt
+  aes_ctr.c
+  aes.c
+  Generating Code...
+  aes_ctr.vcxproj -> C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\encrypt\Debug\aes_ctr.exe

@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/aes_ecb.dir/aes_ecb.c.o CMakeFiles/aes_ecb.dir/aes.c.o -o aes_ecb  ../common/libcloudhsmpkcs11.a -ldl 

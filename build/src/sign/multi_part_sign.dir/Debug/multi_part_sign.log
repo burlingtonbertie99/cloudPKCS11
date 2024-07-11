@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/sign/CMakeLists.txt
+  ec_sign.c
+  rsa_sign.c
+  multi_part_sign.c
+  common.c
+  Generating Code...
+  multi_part_sign.vcxproj -> C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\sign\Debug\multi_part_sign.exe

@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/digest.dir/digest.c.o -o digest  ../common/libcloudhsmpkcs11.a -ldl 

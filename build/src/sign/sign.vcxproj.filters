@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\sign\ec_sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\sign\rsa_sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\sign\sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\sign\common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\sign\sign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\sign\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6A9F0AA3-1763-3291-A788-C79C8C15C96B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{09D04FD7-A28B-358A-9304-2B79ACF911B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

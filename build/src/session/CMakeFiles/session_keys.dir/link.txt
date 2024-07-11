@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/session_keys.dir/session_keys.c.o -o session_keys  ../common/libcloudhsmpkcs11.a -ldl 

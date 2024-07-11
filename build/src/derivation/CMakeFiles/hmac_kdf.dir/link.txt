@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/hmac_kdf.dir/hmac_kdf.c.o -o hmac_kdf  ../common/libcloudhsmpkcs11.a -ldl 

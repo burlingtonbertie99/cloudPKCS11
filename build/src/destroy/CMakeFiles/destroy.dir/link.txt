@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdestroy.a CMakeFiles/destroy.dir/destroy.c.o
+/usr/bin/ranlib libdestroy.a

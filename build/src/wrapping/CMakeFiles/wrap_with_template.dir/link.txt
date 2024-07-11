@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/wrap_with_template.dir/wrap_with_template.c.o -o wrap_with_template  ../common/libcloudhsmpkcs11.a -ldl 

@@ -1,0 +1,15 @@
+﻿  allmyownbloodywork.c
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(69,5): warning C4996: 'OPENSSL_config': Since OpenSSL 1.1.0
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(144,10): warning C4996: 'PEM_read_bio_RSA_PUBKEY': Since OpenSSL 3.0
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(352,14): warning C4013: 'open' undefined; assuming extern returning int
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(359,5): warning C4013: 'write' undefined; assuming extern returning int
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(364,5): warning C4013: 'close' undefined; assuming extern returning int
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(367,5): warning C4013: 'write_wrapped_key' undefined; assuming extern returning int
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(202,5): warning C4996: 'RSA_get0_key': Since OpenSSL 3.0
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(206,73): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(216,72): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(234,32): warning C4267: 'initializing': conversion from 'size_t' to 'CK_ULONG', possible loss of data
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(336,76): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(354,77): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\tools\allmyownbloodywork.c(229,22): warning C4101: 'wrappingKey': unreferenced local variable
+  allmyownbloodywork.vcxproj -> C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\tools\Debug\allmyownbloodywork.exe

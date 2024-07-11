@@ -1,0 +1,2 @@
+/usr/bin/ar qc libattributes.a CMakeFiles/attributes.dir/attributes.c.o
+/usr/bin/ranlib libattributes.a
