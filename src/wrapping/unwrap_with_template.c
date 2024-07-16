@@ -345,11 +345,15 @@ int main(int argc, char **argv) {
         return rc;
     }
 
+
+    /*
     rv = aes_wrap_unwrap_with_trusted(session, args.wrapping_key_handle);
     if (CKR_OK != rv) {
         fprintf(stderr, "Failed to unwrap with trusted wrapping key.\n");
         return rc;
     }
+
+    */
 
     pkcs11_finalize_session(session);
     return EXIT_SUCCESS;

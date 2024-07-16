@@ -5,9 +5,9 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <unistd.h>
+//#include <unistd.h>
 #include <fcntl.h>
-#include <getopt.h>
+//#include <getopt.h>
 #include <errno.h>
 #include <memory.h>
 
@@ -472,14 +472,14 @@ static void show_help() {
 
 void initialize_openssl()
 {
-    ERR_load_crypto_strings();;
-    OPENSSL_config(NULL);
+    //ERR_load_crypto_strings();;
+   // OPENSSL_config(NULL);
 }
 
 void cleanup_openssl()
 {
-    CRYPTO_cleanup_all_ex_data();
-    ERR_free_strings();
+   // CRYPTO_cleanup_all_ex_data();
+    //ERR_free_strings();
 }
 
 
@@ -499,6 +499,8 @@ static int get_import_args(int argc, char **argv, struct import_args *args) {
     char *pin = NULL;
     char *library = NULL;
     char *pem_file = NULL;
+
+    /*
 
     while (1) {
         static struct option long_options[] =
@@ -541,6 +543,8 @@ static int get_import_args(int argc, char **argv, struct import_args *args) {
         show_help();
         return -1;
     }
+
+    */
 
     args->pin = pin;
     args->library = library;
@@ -637,7 +641,9 @@ int main(int argc, char **argv) {
 
 
 
-    /* Read the pem file into an RSA struct to we can access the exponent and modulus */
+    /* 
+    
+    //Read the pem file into an RSA struct to we can access the exponent and modulus 
     RSA *key = read_RSA_PUBKEY(args.pem_file);
     if (NULL==key) {
         fprintf(stderr, "Could not read the RSA key\n");
@@ -655,6 +661,8 @@ int main(int argc, char **argv) {
 
         RSA_get0_key(key, &bn_n , &bn_e, NULL);
 
+
+        
 
     CK_ULONG pub_exp_len = BN_num_bytes(bn_e);
     CK_BYTE *pub_exp = malloc(pub_exp_len);
@@ -674,6 +682,8 @@ int main(int argc, char **argv) {
 
     RSA_free(key);
 
+    */
+
     /* Using the modulus and exponent from above, we can "import" the key by creating
      * an object with the appropriate attributes.
      */
@@ -684,8 +694,8 @@ int main(int argc, char **argv) {
     CK_ATTRIBUTE pub_tmpl[] = {
             {CKA_KEY_TYPE,        &key_type,      sizeof(key_type)},
             {CKA_CLASS,           &pub_key_class, sizeof(pub_key_class)},
-            {CKA_MODULUS,         modulus,        modulus_len},
-            {CKA_PUBLIC_EXPONENT, pub_exp,        pub_exp_len},
+            //{CKA_MODULUS,         modulus,        modulus_len},
+           // {CKA_PUBLIC_EXPONENT, pub_exp,        pub_exp_len},
             {CKA_TOKEN,           &true_val,      sizeof(CK_BBOOL)},
             {CKA_WRAP,            &true_val,      sizeof(CK_BBOOL)}
     };
