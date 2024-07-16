@@ -14,7 +14,8 @@ jobs:
       - checkout
       #- run:  MSBuild.exe $env:HOME\aws-cloudhsm-pkcs11-examples.sln
       # CIRCLE_WORKING_DIRECTORY
-      - run:  MSBuild.exe $env:CIRCLE_WORKING_DIRECTORY\build\aws-cloudhsm-pkcs11-examples.sln
+      #- run:  MSBuild.exe $env:CIRCLE_WORKING_DIRECTORY\build\aws-cloudhsm-pkcs11-examples.sln
+      - run: dir /s /b
 
 workflows:
   my-workflow:
