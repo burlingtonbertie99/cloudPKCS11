@@ -12,7 +12,8 @@ jobs:
     steps:
       # Commands are run in a Windows virtual machine environment
       - checkout
-      - run:  MSBuild.exe $env:HOME\aws-cloudhsm-pkcs11-examples.sln
+      #- run:  MSBuild.exe $env:HOME\aws-cloudhsm-pkcs11-examples.sln
+      - run:  MSBuild.exe aws-cloudhsm-pkcs11-examples.sln
 
 workflows:
   my-workflow:
