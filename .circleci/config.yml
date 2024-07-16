@@ -7,16 +7,6 @@ version: 2.1
 orbs:
   node: circleci/windows@5.0.0 # replace orb version https://circleci.com/developer/orbs/orb/circleci/node#quick-start
 jobs:
-
-
-
-
-
-
-
-jobs:
-
-
   test:
      docker:
       - image: cimg/base:stable
