@@ -14,8 +14,8 @@ CMakeUserPresets.json
 
 # build 
 
-build
-/build
+#build
+#/build
 
 
 .vs

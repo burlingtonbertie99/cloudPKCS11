@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\aws-cloudhsm-pkcs11-examples\build\CMakeFiles\468ae0025b6b5ac92b78aca886b02671\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{85681CD5-A2AC-3532-9F85-BA5C874CEFC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

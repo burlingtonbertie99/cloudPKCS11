@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\aws-cloudhsm-pkcs11-examples\src\mechanism_info\mechanism_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\aws-cloudhsm-pkcs11-examples\src\mechanism_info\mechanism_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\aws-cloudhsm-pkcs11-examples\src\mechanism_info\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0BE82AE1-0172-3299-9CA2-5761F974CE28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B2973F6E-FB6D-3CC2-BAEB-BDDEB4E899DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
