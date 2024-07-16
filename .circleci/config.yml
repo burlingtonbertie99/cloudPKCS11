@@ -20,7 +20,7 @@ jobs:
       #    command: echo 'replace me with real tests!'
 
   build: # name of your job
-    executor: win/server-2022 # use one of the executors defined within the windows orb
+    executor: windows/server-2022 # use one of the executors defined within the windows orb
 
     steps:
       # Commands are run in a Windows virtual machine environment
