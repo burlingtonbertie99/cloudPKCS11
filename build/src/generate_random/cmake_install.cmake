@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/generate_random
+# Install script for directory: E:/shallow/cloudPKCS11/src/generate_random
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

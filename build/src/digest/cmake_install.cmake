@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/digest
+# Install script for directory: E:/shallow/cloudPKCS11/src/digest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/find_objects
+# Install script for directory: E:/shallow/cloudPKCS11/src/find_objects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

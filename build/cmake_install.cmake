@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples
+# Install script for directory: E:/shallow/cloudPKCS11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,30 +34,38 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/common/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/generate/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/sign/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/encrypt/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/wrapping/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/mechanism_info/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/attributes/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/destroy/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/find_objects/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/derivation/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/generate_random/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/session/cmake_install.cmake")
-  include("C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/tools/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/common/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/digest/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/generate/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/sign/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/encrypt/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/wrapping/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/mechanism_info/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/attributes/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/destroy/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/find_objects/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/derivation/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/generate_random/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/session/cmake_install.cmake")
+  include("E:/shallow/cloudPKCS11/build/src/tools/cmake_install.cmake")
 
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+  if(CMAKE_INSTALL_COMPONENT MATCHES "^[a-zA-Z0-9_.+-]+$")
+    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+  else()
+    string(MD5 CMAKE_INST_COMP_HASH "${CMAKE_INSTALL_COMPONENT}")
+    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INST_COMP_HASH}.txt")
+    unset(CMAKE_INST_COMP_HASH)
+  endif()
 else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "E:/shallow/cloudPKCS11/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

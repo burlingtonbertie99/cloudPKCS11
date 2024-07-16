@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\CMakeFiles\abbcecd305524e10f3a0470ec918c3b3\RUN_TESTS_force.rule">
+    <CustomBuild Include="E:\shallow\cloudPKCS11\build\CMakeFiles\62f8df4cbd18ad030998c3d594101b23\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{6233839F-9A3A-3AEA-B69A-C2189DC0142F}</UniqueIdentifier>
+      <UniqueIdentifier>{99805FD0-4AF1-3D90-8C5D-D17CAE21883F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

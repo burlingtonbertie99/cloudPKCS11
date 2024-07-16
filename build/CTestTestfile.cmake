@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples
-# Build directory: C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build
+# Source directory: E:/shallow/cloudPKCS11
+# Build directory: E:/shallow/cloudPKCS11/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

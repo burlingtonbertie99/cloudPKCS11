@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FDDF6BD1-A8AF-3D7C-8934-20C09E2D3899}</ProjectGuid>
+    <ProjectGuid>{61463938-31CA-31C0-96B7-3F20FB8D0BEF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\digest\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\shallow\cloudPKCS11\build\src\digest\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">multi_part_digest.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">multi_part_digest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\digest\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\shallow\cloudPKCS11\build\src\digest\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">multi_part_digest.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">multi_part_digest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\digest\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\shallow\cloudPKCS11\build\src\digest\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">multi_part_digest.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">multi_part_digest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\digest\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\shallow\cloudPKCS11\build\src\digest\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">multi_part_digest.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">multi_part_digest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -95,9 +95,11 @@
       </ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
@@ -108,10 +110,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -124,8 +126,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/Debug/multi_part_digest.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/Debug/multi_part_digest.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/shallow/cloudPKCS11/build/src/digest/Debug/multi_part_digest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/shallow/cloudPKCS11/build/src/digest/Debug/multi_part_digest.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -134,16 +136,19 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
@@ -156,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,8 +177,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/Release/multi_part_digest.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/Release/multi_part_digest.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/shallow/cloudPKCS11/build/src/digest/Release/multi_part_digest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/shallow/cloudPKCS11/build/src/digest/Release/multi_part_digest.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -182,16 +187,19 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
@@ -204,10 +212,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -220,8 +228,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/MinSizeRel/multi_part_digest.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/MinSizeRel/multi_part_digest.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/shallow/cloudPKCS11/build/src/digest/MinSizeRel/multi_part_digest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/shallow/cloudPKCS11/build/src/digest/MinSizeRel/multi_part_digest.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -230,17 +238,20 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
@@ -251,10 +262,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\include\gopt;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\common;C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\shallow\cloudPKCS11\include\pkcs11\v2.40;E:\shallow\cloudPKCS11\include\gopt;E:\shallow\cloudPKCS11\src\common;E:\shallow\cloudPKCS11\src\wrapping;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -267,8 +278,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/RelWithDebInfo/multi_part_digest.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/RelWithDebInfo/multi_part_digest.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/shallow/cloudPKCS11/build/src/digest/RelWithDebInfo/multi_part_digest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/shallow/cloudPKCS11/build/src/digest/RelWithDebInfo/multi_part_digest.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -276,11 +287,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\digest\CMakeLists.txt">
+    <CustomBuild Include="E:\shallow\cloudPKCS11\src\digest\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/digest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/shallow/cloudPKCS11/src/digest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples -BC:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build --check-stamp-file C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/shallow/cloudPKCS11 -BE:/shallow/cloudPKCS11/build --check-stamp-file E:/shallow/cloudPKCS11/build/src/digest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,11 +300,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\digest\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\shallow\cloudPKCS11\build\src\digest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/digest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/shallow/cloudPKCS11/src/digest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples -BC:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build --check-stamp-file C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/shallow/cloudPKCS11 -BE:/shallow/cloudPKCS11/build --check-stamp-file E:/shallow/cloudPKCS11/build/src/digest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,11 +313,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\digest\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\shallow\cloudPKCS11\build\src\digest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/digest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/shallow/cloudPKCS11/src/digest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples -BC:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build --check-stamp-file C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/shallow/cloudPKCS11 -BE:/shallow/cloudPKCS11/build --check-stamp-file E:/shallow/cloudPKCS11/build/src/digest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,11 +326,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\digest\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\shallow\cloudPKCS11\build\src\digest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/digest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/shallow/cloudPKCS11/src/digest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples -BC:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build --check-stamp-file C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/build/src/digest/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/shallow/cloudPKCS11 -BE:/shallow/cloudPKCS11/build --check-stamp-file E:/shallow/cloudPKCS11/build/src/digest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -328,22 +339,22 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\digest\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\shallow\cloudPKCS11\build\src\digest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\src\digest\multi_part_digest.c" />
+    <ClCompile Include="E:\shallow\cloudPKCS11\src\digest\multi_part_digest.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\ZERO_CHECK.vcxproj">
-      <Project>{B469C272-71C6-3B4F-AE0F-F3B832359DDA}</Project>
+    <ProjectReference Include="E:\shallow\cloudPKCS11\build\ZERO_CHECK.vcxproj">
+      <Project>{52C2E89A-1435-31DA-A4E2-94626941FE90}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\common\cloudhsmpkcs11.vcxproj">
-      <Project>{982D4E6E-E94D-3F9D-8FF5-EEA1F7481BBB}</Project>
+    <ProjectReference Include="E:\shallow\cloudPKCS11\build\src\common\cloudhsmpkcs11.vcxproj">
+      <Project>{FC06ECA0-8844-38BD-A885-0F7325C0DF35}</Project>
       <Name>cloudhsmpkcs11</Name>
     </ProjectReference>
   </ItemGroup>
