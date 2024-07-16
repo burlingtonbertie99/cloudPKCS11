@@ -20,7 +20,7 @@ jobs:
       # Replace this with steps to build a package, or executable
       - run:
           name: Build an artifact
-          command: touch example.txt
+          command: MSBuild.exe $env:HOME\aws-cloudhsm-pkcs11-examples.sln
       - store_artifacts:
           path: example.txt
   deploy:
