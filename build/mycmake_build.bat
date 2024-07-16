@@ -1,1 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" .. -DHSM_USER=cryptouser -DHSM_PASSWORD=Tarzan12 -DTRUSTED_WRAPPING_KEY_HANDLE=trusted -DCLOUDHSM_PKCS11_VENDOR_DEFS_PATH=C:\\Users\\slaph\\src\\diyrootkek\\aws-cloudhsm-pkcs11-examples\\src\\tools

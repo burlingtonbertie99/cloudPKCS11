@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/mechanism_info.dir/mechanism_info.c.o -o mechanism_info  ../common/libcloudhsmpkcs11.a -ldl 

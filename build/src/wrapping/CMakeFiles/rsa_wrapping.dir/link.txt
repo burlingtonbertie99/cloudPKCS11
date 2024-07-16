@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/rsa_wrapping.dir/rsa_wrapping.c.o -o rsa_wrapping  ../common/libcloudhsmpkcs11.a -ldl 

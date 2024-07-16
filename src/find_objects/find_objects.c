@@ -1,3 +1,19 @@
+/*
+ * Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this
+ * software and associated documentation files (the "Software"), to deal in the Software
+ * without restriction, including without limitation the rights to use, copy, modify,
+ * merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+ * PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -135,23 +151,21 @@ CK_RV generate_rsa_keypair(CK_SESSION_HANDLE session,
  * @param session
  */
 CK_RV find_keys_with_label_example(CK_SESSION_HANDLE session) {
-    CK_BYTE_PTR label1 = "mkek_AA7EAB";
-   // CK_OBJECT_HANDLE aes_key_handle1 = CK_INVALID_HANDLE;
-  CK_RV rv =0;
-
-//     rv = generate_aes_key(session, 32, label1, (CK_ULONG) strlen(label1), &aes_key_handle1);
-  //  if (CKR_OK != rv) {
-    //    fprintf(stderr, "Failed to generate an AES key: %lu\n", rv);
-      //  return rv;
-   // }
+    CK_BYTE_PTR label1 = "First Label";
+    CK_OBJECT_HANDLE aes_key_handle1 = CK_INVALID_HANDLE;
+    CK_RV rv = generate_aes_key(session, 32, label1, (CK_ULONG) strlen(label1), &aes_key_handle1);
+    if (CKR_OK != rv) {
+        fprintf(stderr, "Failed to generate an AES key: %lu\n", rv);
+        return rv;
+    }
 
     CK_BYTE_PTR label2 = "Second Label";
-   // CK_OBJECT_HANDLE aes_key_handle2 = CK_INVALID_HANDLE;
-   // rv = generate_aes_key(session, 32, label2, (CK_ULONG) strlen(label2), &aes_key_handle2);
-   // if (CKR_OK != rv) {
-     //   fprintf(stderr, "Failed to generate an AES key: %lu\n", rv);
-       // return rv;
-   // }
+    CK_OBJECT_HANDLE aes_key_handle2 = CK_INVALID_HANDLE;
+    rv = generate_aes_key(session, 32, label2, (CK_ULONG) strlen(label2), &aes_key_handle2);
+    if (CKR_OK != rv) {
+        fprintf(stderr, "Failed to generate an AES key: %lu\n", rv);
+        return rv;
+    }
 
     CK_ULONG count = 0;
     CK_OBJECT_HANDLE *found_objects = NULL;

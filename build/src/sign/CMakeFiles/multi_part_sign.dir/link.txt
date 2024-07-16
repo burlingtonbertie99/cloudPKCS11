@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/multi_part_sign.dir/ec_sign.c.o CMakeFiles/multi_part_sign.dir/rsa_sign.c.o CMakeFiles/multi_part_sign.dir/multi_part_sign.c.o CMakeFiles/multi_part_sign.dir/common.c.o -o multi_part_sign  ../common/libcloudhsmpkcs11.a -ldl 

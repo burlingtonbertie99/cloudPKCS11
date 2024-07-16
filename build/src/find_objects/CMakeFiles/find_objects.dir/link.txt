@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -Werror -Wno-pointer-sign -fno-signed-char -std=c99 -rdynamic CMakeFiles/find_objects.dir/find_objects.c.o -o find_objects  ../common/libcloudhsmpkcs11.a -ldl 

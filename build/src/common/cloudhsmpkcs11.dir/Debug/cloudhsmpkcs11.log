@@ -1,6 +1,0 @@
-﻿  Building Custom Rule C:/Users/slaph/src/diyrootkek/aws-cloudhsm-pkcs11-examples/src/common/CMakeLists.txt
-  common.c
-  pkcs11.c
-  gopt.c
-  Generating Code...
-  cloudhsmpkcs11.vcxproj -> C:\Users\slaph\src\diyrootkek\aws-cloudhsm-pkcs11-examples\build\src\common\Debug\cloudhsmpkcs11.lib
