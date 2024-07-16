@@ -1,73 +1,20 @@
-# Couldn't automatically generate a config from your source code.
-# This is a generic template to serve as a base for your custom config
-# See: https://circleci.com/docs/configuration-reference
 version: 2.1
 
-
 orbs:
-  node: circleci/windows@5.0.0 # replace orb version https://circleci.com/developer/orbs/orb/circleci/node#quick-start
+  win: circleci/windows@5.0.0 # The Windows orb gives you everything you need to start using the Windows executor.
 
 jobs:
-
-#  test:
-#     docker:
-#      - image: cimg/base:stable
-#    steps:
-#      - checkout
-      ## Replace this with a real test runner invocation
-      #- run:
-      #    name: Run tests
-      #    command: echo 'replace me with real tests!'
-
-  build: # name of your job
-    executor: win/default # use one of the executors defined within the windows orb
+  hello-job:
+    executor:
+      name: win/default # executor type
+      size: "medium" # resource class, can be "medium", "large", "xlarge", "2xlarge", defaults to "medium" if not specified
 
     steps:
       # Commands are run in a Windows virtual machine environment
       - checkout
       - run:  MSBuild.exe $env:HOME\aws-cloudhsm-pkcs11-examples.sln
 
-
-
-
-
-
-
-  #test:
-  #  docker:
-  #    - image: cimg/base:stable
-  #  steps:
-  #    - checkout
-  #    # Replace this with a real test runner invocation
-  #    - run:
-  #        name: Run tests
-  #        command: echo 'replace me with real tests!'
-  #build:
-  #  docker:
-  #    - image: cimg/base:stable
-  #  steps:
-  #    - checkout
-  #    # Replace this with steps to build a package, or executable
-  #    - run:
-  #        name: Build an artifact
-  #        command: MSBuild.exe $env:HOME\aws-cloudhsm-pkcs11-examples.sln
-  #    - store_artifacts:
-  #        path: example.txt
-  #deploy:
-  #  docker:
-  #    - image: cimg/base:stable
-  #  steps:
-  #    # Replace this with steps to deploy to users
-  #    - run:
-  #        name: deploy
- #         command: '#e.g. ./deploy.sh'
 workflows:
-  example:
+  my-workflow:
     jobs:
-      #- test
-      - build
-       #   requires:
-        #    - test
-      #- deploy:
-       #   requires:
-        #    - test
+      - hello-job
