@@ -1,36 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="%MYGITROOT001%\src\common\common.c">
+    <ClCompile Include="H:\aws-cloudhsm-pkcs11-examples_github\src\common\common.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="%MYGITROOT001%\src\common\pkcs11.c">
+    <ClCompile Include="H:\aws-cloudhsm-pkcs11-examples_github\src\common\pkcs11.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="%MYGITROOT001%\src\common\gopt.c">
+    <ClCompile Include="H:\aws-cloudhsm-pkcs11-examples_github\src\common\gopt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="%MYGITROOT001%\src\common\common.h">
+    <ClInclude Include="H:\aws-cloudhsm-pkcs11-examples_github\src\common\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="%MYGITROOT001%\src\common\gopt.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\common\cloudhsm_pkcs11_vendor_defs.h">
+    <ClInclude Include="H:\aws-cloudhsm-pkcs11-examples_github\src\common\gopt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="%MYGITROOT001%\src\common\CMakeLists.txt" />
+    <CustomBuild Include="H:\aws-cloudhsm-pkcs11-examples_github\src\common\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{0BE82AE1-0172-3299-9CA2-5761F974CE28}</UniqueIdentifier>
+      <UniqueIdentifier>{ECE1DC30-2B0B-35FE-B85C-A06B1C703D1E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{B2973F6E-FB6D-3CC2-BAEB-BDDEB4E899DA}</UniqueIdentifier>
+      <UniqueIdentifier>{C6030CA0-CCC9-39D8-B889-FF1AC6339BF0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

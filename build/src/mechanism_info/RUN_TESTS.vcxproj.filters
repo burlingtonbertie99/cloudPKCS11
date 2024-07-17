@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="%MYGITROOT001%\build\CMakeFiles\baf155001d3e9531f72407192c9b966c\RUN_TESTS_force.rule">
+    <CustomBuild Include="H:\aws-cloudhsm-pkcs11-examples_github\build\CMakeFiles\2f4d2b905d84f9025ef92640d01d397e\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{85681CD5-A2AC-3532-9F85-BA5C874CEFC4}</UniqueIdentifier>
+      <UniqueIdentifier>{7231CBB6-F37A-319B-BC1D-4DD921273D39}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="%MYGITROOT001%\src\sign\ec_sign.c">
+    <ClCompile Include="H:\aws-cloudhsm-pkcs11-examples_github\src\sign\ec_sign.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="%MYGITROOT001%\src\sign\rsa_sign.c">
+    <ClCompile Include="H:\aws-cloudhsm-pkcs11-examples_github\src\sign\rsa_sign.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="%MYGITROOT001%\src\sign\sign.c">
+    <ClCompile Include="H:\aws-cloudhsm-pkcs11-examples_github\src\sign\sign.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="%MYGITROOT001%\src\sign\common.c">
+    <ClCompile Include="H:\aws-cloudhsm-pkcs11-examples_github\src\sign\common.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="%MYGITROOT001%\src\sign\sign.h">
+    <ClInclude Include="H:\aws-cloudhsm-pkcs11-examples_github\src\sign\sign.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="%MYGITROOT001%\src\sign\CMakeLists.txt" />
+    <CustomBuild Include="H:\aws-cloudhsm-pkcs11-examples_github\src\sign\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{0BE82AE1-0172-3299-9CA2-5761F974CE28}</UniqueIdentifier>
+      <UniqueIdentifier>{ECE1DC30-2B0B-35FE-B85C-A06B1C703D1E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{B2973F6E-FB6D-3CC2-BAEB-BDDEB4E899DA}</UniqueIdentifier>
+      <UniqueIdentifier>{C6030CA0-CCC9-39D8-B889-FF1AC6339BF0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
