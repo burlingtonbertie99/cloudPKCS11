@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\aws-cloudhsm-pkcs11-examples\build\CMakeFiles\e761611bc4b3f1d8bccb843e09f9a560\RUN_TESTS_force.rule">
+    <CustomBuild Include="%MYGITROOT001%\build\CMakeFiles\e761611bc4b3f1d8bccb843e09f9a560\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>

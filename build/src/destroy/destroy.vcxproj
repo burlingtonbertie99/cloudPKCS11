@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\aws-cloudhsm-pkcs11-examples\build\src\destroy\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%MYGITROOT001%\build\src\destroy\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">destroy.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">destroy</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\aws-cloudhsm-pkcs11-examples\build\src\destroy\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%MYGITROOT001%\build\src\destroy\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">destroy.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">destroy</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\aws-cloudhsm-pkcs11-examples\build\src\destroy\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%MYGITROOT001%\build\src\destroy\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">destroy.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">destroy</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\aws-cloudhsm-pkcs11-examples\build\src\destroy\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%MYGITROOT001%\build\src\destroy\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">destroy.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">destroy</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,7 +118,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -143,10 +143,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -159,7 +159,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -184,10 +184,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,7 +200,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -224,10 +224,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;E:\aws-cloudhsm-pkcs11-examples\include\pkcs11\v2.40;E:\aws-cloudhsm-pkcs11-examples\include\gopt;E:\aws-cloudhsm-pkcs11-examples\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Amazon\CloudHSM\include\pkcs11;%MYGITROOT001%\include\pkcs11\v2.40;%MYGITROOT001%\include\gopt;%MYGITROOT001%\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -239,11 +239,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\aws-cloudhsm-pkcs11-examples\src\destroy\CMakeLists.txt">
+    <CustomBuild Include="%MYGITROOT001%\src\destroy\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/aws-cloudhsm-pkcs11-examples/src/destroy/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule %MYGITROOT001%/src/destroy/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/aws-cloudhsm-pkcs11-examples -BE:/aws-cloudhsm-pkcs11-examples/build --check-stamp-file E:/aws-cloudhsm-pkcs11-examples/build/src/destroy/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -S%MYGITROOT001% -B%MYGITROOT001%/build --check-stamp-file %MYGITROOT001%/build/src/destroy/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -252,11 +252,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\aws-cloudhsm-pkcs11-examples\build\src\destroy\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%MYGITROOT001%\build\src\destroy\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/aws-cloudhsm-pkcs11-examples/src/destroy/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule %MYGITROOT001%/src/destroy/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/aws-cloudhsm-pkcs11-examples -BE:/aws-cloudhsm-pkcs11-examples/build --check-stamp-file E:/aws-cloudhsm-pkcs11-examples/build/src/destroy/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -S%MYGITROOT001% -B%MYGITROOT001%/build --check-stamp-file %MYGITROOT001%/build/src/destroy/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -265,11 +265,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\aws-cloudhsm-pkcs11-examples\build\src\destroy\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%MYGITROOT001%\build\src\destroy\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/aws-cloudhsm-pkcs11-examples/src/destroy/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule %MYGITROOT001%/src/destroy/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/aws-cloudhsm-pkcs11-examples -BE:/aws-cloudhsm-pkcs11-examples/build --check-stamp-file E:/aws-cloudhsm-pkcs11-examples/build/src/destroy/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -S%MYGITROOT001% -B%MYGITROOT001%/build --check-stamp-file %MYGITROOT001%/build/src/destroy/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,11 +278,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\aws-cloudhsm-pkcs11-examples\build\src\destroy\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%MYGITROOT001%\build\src\destroy\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/aws-cloudhsm-pkcs11-examples/src/destroy/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule %MYGITROOT001%/src/destroy/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/aws-cloudhsm-pkcs11-examples -BE:/aws-cloudhsm-pkcs11-examples/build --check-stamp-file E:/aws-cloudhsm-pkcs11-examples/build/src/destroy/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -S%MYGITROOT001% -B%MYGITROOT001%/build --check-stamp-file %MYGITROOT001%/build/src/destroy/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,16 +291,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\aws-cloudhsm-pkcs11-examples\build\src\destroy\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%MYGITROOT001%\build\src\destroy\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\aws-cloudhsm-pkcs11-examples\src\destroy\destroy.c" />
-    <ClInclude Include="E:\aws-cloudhsm-pkcs11-examples\src\destroy\destroy.h" />
+    <ClCompile Include="%MYGITROOT001%\src\destroy\destroy.c" />
+    <ClInclude Include="%MYGITROOT001%\src\destroy\destroy.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\aws-cloudhsm-pkcs11-examples\build\ZERO_CHECK.vcxproj">
+    <ProjectReference Include="%MYGITROOT001%\build\ZERO_CHECK.vcxproj">
       <Project>{7B1E4CFC-8E14-3BE5-B5FD-9503A640C77F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
